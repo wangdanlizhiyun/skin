@@ -21,5 +21,8 @@ compile 'com.github.wangdanlizhiyun:skin:1.0.0'
   #TODO：当考虑到基于自定义view的兼容webp的库也是setfactory或者setfactory2并且重新生成drawable或者statelistdrawable时，为陷入了沉思。。。
   
   
+  #效果图：
+  请使用命令查看sudo gem install -n /usr/local/bin dryrun
+         dryrun https://github.com/wangdanlizhiyun/skin.git
   
   
