@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">skin_library</string>
+    <item type="id" name="tag_skinTypeface"/>
+    <item type="id" name="tag_background"/>
+    <item type="id" name="tag_src"/>
+    <item type="id" name="tag_textColor"/>
+    <item type="id" name="tag_drawableLeft"/>
+    <item type="id" name="tag_drawableTop"/>
+    <item type="id" name="tag_drawableRight"/>
+    <item type="id" name="tag_drawableBottom"/>
+</resources>
