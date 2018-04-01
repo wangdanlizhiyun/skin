@@ -22,7 +22,7 @@ compile 'com.github.wangdanlizhiyun:skin:1.0.0'
   
   
   #效果图：
-  请使用命令查看sudo gem install -n /usr/local/bin dryrun
+  请使用命令查看
          dryrun https://github.com/wangdanlizhiyun/skin.git
   
   
