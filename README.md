@@ -6,7 +6,7 @@
  
 #使用
 maven { url 'https://jitpack.io' }
-compile 'com.github.wangdanlizhiyun:skin:1.0.0'
+compile 'com.github.wangdanlizhiyun:skin:1.0.1'
  
  
  在application里初始化
