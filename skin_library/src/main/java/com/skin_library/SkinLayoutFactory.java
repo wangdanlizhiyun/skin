@@ -97,6 +97,8 @@ public class SkinLayoutFactory implements LayoutInflater.Factory2 ,Observer{
         mSkinAttribute.updateSkinForNewView(ThemeUtils.getSkinTypeface(mActivity),view);
     }
     public void release(){
-        mSkinAttribute.release();
+        if (mSkinAttribute != null){
+            mSkinAttribute.release();
+        }
     }
 }

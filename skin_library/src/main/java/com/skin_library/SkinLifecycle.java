@@ -12,6 +12,7 @@ import android.view.View;
 import com.skin_library.util.ThemeUtils;
 
 import java.lang.reflect.Field;
+import java.util.HashMap;
 
 /**
  * Created by lizhiyun on 2018/3/22.
@@ -66,8 +67,10 @@ public class SkinLifecycle implements Application.ActivityLifecycleCallbacks {
     @Override
     public void onActivityDestroyed(Activity activity) {
         SkinLayoutFactory skinLayoutFactory = mActivitySkinLayoutFactoryArrayMap.remove(activity);
-        SkinManager.getInstance().deleteObserver(skinLayoutFactory);
-        mActivitySkinLayoutFactoryArrayMap.get(activity).release();
+        if (null != skinLayoutFactory){
+            skinLayoutFactory.release();
+            SkinManager.getInstance().deleteObserver(skinLayoutFactory);
+        }
     }
 
     public void updateSkin(Activity activity) {
