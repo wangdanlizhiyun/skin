@@ -1,6 +1,7 @@
 package skin.lzy.com.skin;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
@@ -45,8 +46,11 @@ public class MainActivity extends AppCompatActivity {
         SkinManager.getInstance().updateSkin(this);
         TextView tv = new TextView(this);
         tv.setText("这个view不是通过xml生成的！！！");
+        tv.setBackgroundColor(Color.GREEN);
         tv.setTextColor(getResources().getColor(R.color.colorAccent));
         tv.setTag(R.id.tag_textColor,R.color.colorAccent);
+        tv.setCompoundDrawablesWithIntrinsicBounds(R.drawable.text_drawable_left,0,0,0);
+        tv.setTag(R.id.tag_drawableLeft,R.drawable.text_drawable_left);
         LinearLayout linearLayout = findViewById(R.id.ll_container);
         linearLayout.addView(tv);
         SkinManager.getInstance().updateSkinForNewView(this,tv);

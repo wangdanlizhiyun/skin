@@ -46,7 +46,6 @@ public class MyTabLayout extends TabLayout implements SkinViewSupport {
             int tabIndicatorColor = SkinResources.getInstance().getColor(tabIndicatorColorResId);
             setSelectedTabIndicatorColor(tabIndicatorColor);
         }
-
         if (tabTextColorResId != 0) {
             ColorStateList tabTextColor = SkinResources.getInstance().getColorStateList
                     (tabTextColorResId);
