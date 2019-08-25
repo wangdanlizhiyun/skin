@@ -15,10 +15,6 @@ import com.skin_library.util.SkinResources;
 import java.lang.reflect.Method;
 import java.util.Observable;
 
-/**
- * Created by lizhiyun on 2018/3/21.
- */
-
 public class SkinManager extends Observable{
     private static volatile SkinManager sInstance;
     private Application mApplication;

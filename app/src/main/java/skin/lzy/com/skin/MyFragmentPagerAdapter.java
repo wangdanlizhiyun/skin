@@ -6,11 +6,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import java.util.List;
 
-/**
- * @author Lance
- * @date 2018/3/12
- */
-
 public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
 
     private List<String> mTitles;

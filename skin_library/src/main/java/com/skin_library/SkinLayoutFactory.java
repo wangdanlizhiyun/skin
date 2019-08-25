@@ -15,10 +15,6 @@ import java.util.Map;
 import java.util.Observable;
 import java.util.Observer;
 
-/**
- * Created by lizhiyun on 2018/3/21.
- */
-
 public class SkinLayoutFactory implements LayoutInflater.Factory2 ,Observer{
     private static final String[] sClassPrefixList = {
             "android.widget.",

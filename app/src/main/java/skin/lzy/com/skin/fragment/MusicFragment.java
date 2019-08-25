@@ -1,19 +1,14 @@
 package skin.lzy.com.skin.fragment;
 
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
+
 import skin.lzy.com.skin.R;
-
-
-/**
- * @author Lance
- * @date 2018/3/12
- */
 
 public class MusicFragment extends Fragment {
 

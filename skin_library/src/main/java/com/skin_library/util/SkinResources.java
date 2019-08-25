@@ -8,10 +8,6 @@ import android.graphics.drawable.Drawable;
 import android.graphics.drawable.StateListDrawable;
 import android.text.TextUtils;
 
-/**
- * Created by lizhiyun on 2018/3/22.
- */
-
 public class SkinResources {
     private static volatile SkinResources sInstance;
 

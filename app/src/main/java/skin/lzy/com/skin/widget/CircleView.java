@@ -4,21 +4,16 @@ import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
-import android.support.annotation.ColorInt;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.View;
+
+import androidx.annotation.ColorInt;
+import androidx.annotation.Nullable;
 
 import com.skin_library.SkinViewSupport;
 import com.skin_library.util.SkinResources;
 
 import skin.lzy.com.skin.R;
-
-/**
- * @author Lance
- * @date 2018/3/12
- */
 
 public class CircleView extends View implements SkinViewSupport {
 

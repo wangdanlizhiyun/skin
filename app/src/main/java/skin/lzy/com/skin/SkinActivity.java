@@ -19,12 +19,6 @@ import java.util.List;
 import skin.lzy.com.skin.skin.Skin;
 import skin.lzy.com.skin.skin.SkinUtils;
 
-
-/**
- * @author Lance
- * @date 2018/3/12
- */
-
 public class SkinActivity extends Activity {
     /**
      * 从服务器拉取的皮肤表

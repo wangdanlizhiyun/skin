@@ -4,22 +4,17 @@ import android.app.Activity;
 import android.app.Application;
 import android.graphics.Typeface;
 import android.os.Bundle;
-import android.support.v4.util.ArrayMap;
-import android.support.v4.view.LayoutInflaterCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 
+import androidx.collection.ArrayMap;
+import androidx.core.view.LayoutInflaterCompat;
+
 import com.skin_library.util.ThemeUtils;
-
 import java.lang.reflect.Field;
-import java.util.HashMap;
-
-/**
- * Created by lizhiyun on 2018/3/22.
- */
 
 public class SkinLifecycle implements Application.ActivityLifecycleCallbacks {
-    ArrayMap<Activity,SkinLayoutFactory> mActivitySkinLayoutFactoryArrayMap = new ArrayMap<>();
+            ArrayMap<Activity,SkinLayoutFactory> mActivitySkinLayoutFactoryArrayMap = new ArrayMap<>();
     @Override
     public void onActivityCreated(Activity activity, Bundle savedInstanceState) {
         ThemeUtils.updateStatusBar(activity);

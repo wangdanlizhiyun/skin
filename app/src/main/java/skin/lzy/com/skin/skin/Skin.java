@@ -2,10 +2,6 @@ package skin.lzy.com.skin.skin;
 
 import java.io.File;
 
-/**
- * @author Lance
- * @date 2018/3/19
- */
 
 public class Skin {
 

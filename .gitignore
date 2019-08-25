@@ -1,8 +1,16 @@
 .gradle
+.idea/
 /.idea/workspace.xml
+.idea/gradle.xml
 /.idea/libraries
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 /.idea
+.idea/misc.xml
+app-skin/app-skin.iml
+app/app.iml
+skin_library/skin_library.iml
+skin.iml
+

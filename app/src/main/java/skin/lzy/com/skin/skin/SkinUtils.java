@@ -6,11 +6,6 @@ import java.io.IOException;
 import java.math.BigInteger;
 import java.security.MessageDigest;
 
-/**
- * @author Lance
- * @date 2018/3/19
- */
-
 public class SkinUtils {
 
 

@@ -3,10 +3,6 @@ package com.skin_library.util;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by lizhiyun on 2018/3/22.
- */
-
 public class SkinPreference {
     private static final String SKIN_SHARED = "skins";
 

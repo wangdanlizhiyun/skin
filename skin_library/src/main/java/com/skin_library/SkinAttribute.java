@@ -3,21 +3,18 @@ package com.skin_library;
 import android.graphics.Typeface;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.core.view.ViewCompat;
 
 import com.skin_library.util.SkinResources;
 import com.skin_library.util.ThemeUtils;
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * Created by lizhiyun on 2018/3/21.
- */
 
 public class SkinAttribute {
     private static final ArrayList<TagAndNamePair> sTagAndNamePair;

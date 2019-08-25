@@ -3,19 +3,14 @@ package skin.lzy.com.skin.widget;
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.content.res.TypedArray;
-import android.support.design.widget.TabLayout;
 import android.util.AttributeSet;
 
+import com.google.android.material.tabs.TabLayout;
 import com.skin_library.SkinViewSupport;
 import com.skin_library.util.SkinResources;
 
 import skin.lzy.com.skin.R;
 
-
-/**
- * @author Lance
- * @date 2018/3/12
- */
 
 public class MyTabLayout extends TabLayout implements SkinViewSupport {
     int tabIndicatorColorResId;
